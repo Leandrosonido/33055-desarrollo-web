@@ -5,6 +5,6 @@ Consiste en un sitio web compuesto para el taller de desarrollo web en su entreg
 
 Esta compuesto por su index y 4 paginas más
 desarrollado en su gran mayorias en boostrap 5 la  cual ya es responsiva, se le añade 2 animaciones al Index ya que es un pie formazado de la actividad.
-y un archivo css para complemetar y modicar algunas pequeñas cosas. PROYECTO EN GITHUB https://github.com/Leandrosonido/33055-desarrollo-web.git LINK WEBhttps://leandrosonido.github.io/33055-desarrollo-web/index.html
+y un archivo css para complemetar y modicar algunas pequeñas cosas. PROYECTO EN GITHUB https://github.com/Leandrosonido/33055-desarrollo-web.git LINK WEB https://leandrosonido.github.io/33055-desarrollo-web/index.html
 
 gracias.
