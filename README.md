@@ -1,5 +1,5 @@
 # 33055-desarrollo-web
-Leandro Vargas Pre Entrega 2 
+Leandro Vargas Pre Entrega 3
 
 Consiste en un sitio web compuesto para el taller de desarrollo web en su entrega número 2, correspondiente a la academia coderhouse.
 
