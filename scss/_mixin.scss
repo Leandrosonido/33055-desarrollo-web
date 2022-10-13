@@ -1,0 +1,9 @@
+@mixin cuadrado{
+    background-color: steelblue;
+    border-radius: 10px;
+    padding: 1vh;
+    background-color : rgb(53, 138, 145)!important;
+} 
+.cardbody {
+    @include cuadrado;
+}

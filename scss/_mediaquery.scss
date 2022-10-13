@@ -1,0 +1,30 @@
+
+@media (max-width: 300px){
+    footer{
+        div{
+            ul{
+                list-style-position: unset;
+                
+            
+            }
+        }
+    }
+}
+    
+footer .conteiner{
+    background-color:rgb(25, 39, 150) ;
+}
+
+
+@media (max-width: 600px) { 
+    footer.conteiner{
+        background-color:rgb(91, 100, 130) ;
+        }
+    }
+
+@media (max-width: 1200px) {
+    footer.conteiner {
+        background-color:rgb(42, 42, 45) ;
+        }
+    }
+
