@@ -1,0 +1,85 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 900;
+}
+
+.navbar navbar-expand-lg navbar-dark bg-dark {
+  background-color: #1915cd;
+}
+
+.container-fluid {
+  background-color: #012030;
+}
+
+.dropdown-menu {
+  background-color: #012030;
+}
+
+.dropdown-item {
+  color: #13a8fe;
+}
+
+li a {
+  color: #13a8fe !important;
+}
+
+.btn {
+  background-color: #0e1afa;
+  color: rgba(255, 255, 255, 0.502);
+  border: rgb(22, 22, 240);
+}
+
+main {
+  background-color: whitesmoke;
+}
+main h1 {
+  font-size: medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+h5 {
+  font-size: xx-large;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+h5 p {
+  font-size: xx-large;
+}
+
+.nav-link px-2 text-muted {
+  background-color: #1915cd !important;
+}
+
+.col {
+  background-color: rgb(28, 189, 178) !important;
+}
+
+@media (max-width: 300px) {
+  footer div ul {
+    list-style-position: unset;
+  }
+}
+footer .conteiner {
+  background-color: rgb(25, 39, 150);
+}
+
+@media (max-width: 600px) {
+  footer.conteiner {
+    background-color: rgb(91, 100, 130);
+  }
+}
+@media (max-width: 1200px) {
+  footer.conteiner {
+    background-color: rgb(42, 42, 45);
+  }
+}
+.cardbody {
+  background-color: steelblue;
+  border-radius: 10px;
+  padding: 1vh;
+  background-color: rgb(53, 138, 145) !important;
+}
