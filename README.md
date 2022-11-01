@@ -1,5 +1,5 @@
 # 33055-desarrollo-web
-Leandro Vargas Entrega Entreg Final Html.
+Leandro Vargas Entrega Entrega Final Html.
 
 Consiste en un sitio web compuesto para el taller de desarrollo web en su entrega final, correspondiente a la academia coderhouse.
 
