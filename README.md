@@ -16,7 +16,7 @@ Desarrollado en Boostrap, CSS, SCSS, (Node modules), animate.css con aplicación
 Durante el proceso, se realizan y se suman las sugerencias del tutor para llegar al resultado visto.
 
 Contenedor https://github.com/Leandrosonido/33055-desarrollo-web
-La Url del Sitio> https://leandrosonido.github.io/33055-desarrollo-web/index.html 
+La URL del Sitio> https://leandrosonido.github.io/33055-desarrollo-web/index.html 
 
 Diseño.
 
