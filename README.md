@@ -29,4 +29,4 @@ Dando cómo resultado:
 
 ![Captura de Pantalla 2022-10-31 a la(s) 23 24 02](https://user-images.githubusercontent.com/112025524/199145416-e547945b-e855-4c79-b793-2ffbf8fcc729.png)
 
-Gracias a mi familia, al docente Matias Miro, compañeros y amigos quienes me entregaron las herramientas, conocimientos y fuerzas para el desarrollo e este proyecto.
+Gracias a mi familia, al docente Matias Miro, compañeros y amigos quienes me entregaron las herramientas, conocimientos y fuerzas para el desarrollo de este proyecto.
