@@ -9,7 +9,7 @@ SoundClass
 Nace cómo un sitio web, para el taller de desarrollo web de la academia CoderHouse. Este ya se encuentra en la etapa de entrega final.
 
 Compuesto con 5 páginas HTML, requisito mínimo del proyecto. 
-Index (Inicio), Nosotros, Cursos, Contacto, Plataforma. 
+Index (Inicio), Nosotros, Cursos, Contacto, Plataforma. De forma complementaria se suma una página en construcción y una de error 404.
 
 Desarrollado en HTML, Bootstrap, CSS, SCSS, (Node modules), animate.css con aplicación de SEO y cargado al repositorio en GitHub.
 
