@@ -21,7 +21,7 @@ La URL del Sitio> https://leandrosonido.github.io/33055-desarrollo-web/index.htm
 Diseño.
 
 Paleta de colores:  
-De la imagen principal del sitio se extrae esta: 
+Tomando el blanco y negro cómo base, de la imagen principal del sitio se extrae esta: 
 
 ![Captura de Pantalla 2022-10-31 a la(s) 23 16 03](https://user-images.githubusercontent.com/112025524/199145336-6206fb12-e7e4-4cb1-8aea-ca1e05879f61.png)
 
