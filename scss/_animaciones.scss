@@ -1,0 +1,36 @@
+//Animación hero fotos
+
+.img-fluid{
+        width: 95%;
+        height:95%;
+        border: 1px solid black;
+        animation: mymove 20s infinite;
+      }
+      
+      @keyframes mymove {
+        0%   {border-radius:48% 52% 68% 32% /42% 28% 72% 58%; }
+        10%  {border-radius:60% 40% 71% 29% /63% 65% 65% 57%; }
+        20%  {border-radius:32% 68% 28% 62% /34% 70% 30% 65%; }
+        30%  {border-radius:48% 52% 68% 32% /36% 72% 28% 55%; }
+        40%  {border-radius:60% 40% 71% 29% /63% 65% 35% 57%; }
+        50%  {border-radius:48% 52% 68% 32% /42% 28% 72% 58%; }
+        60%  {border-radius:48% 52% 68% 32% /42% 28% 72% 58%; }
+        70%  {border-radius:60% 40% 71% 29% /63% 65% 35% 87%; }
+        80%  {border-radius:32% 68% 28% 62% /34% 70% 30% 75%; }
+        90%  {border-radius:48% 52% 68% 32% /36% 72% 28% 85%; }
+        100% {border-radius:48% 52% 68% 32% /42% 28% 72% 68%; } 
+      }
+
+      .img-fluid:hover{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: transform .3s;
+    }
+
+    .rounded-circle:hover{
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      transition: transform .3s;
+  }

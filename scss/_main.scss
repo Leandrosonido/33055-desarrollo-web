@@ -1,21 +1,163 @@
+//Encabezado texto, imagen y botones
+
 main{
-    background-color: whitesmoke;
+    .bg-dark {
+        color:#F1F0F3 !important;
+        background: linear-gradient(280.04deg,black 0%,#0D0D0D 14%, #0F0526 38.45%, #160A40 48.96%, #1F1659 60%, black 100% );}
     h1{
+        color: #F1F0F3;
         font-size: medium;
         align-items: center;
-        padding-left: 1rem;
+        padding-top: 2rem ;
+    }
+    .text-white-50{
+        color:#F1F0F3 !important;
     }
 }
-h5{font-size: xx-large;
-    flex-wrap: wrap;
-    p{font-size: xx-large;
-    }
-}
+//Características
 
-.nav-link px-2 text-muted {
-    background-color: #1915cd !important;
+.bg-white {
+    background: black !important;
+color:white ;
 }
 .col{
-    background-color:rgb(28, 189, 178)!important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:black;
+    color:white;
 }
 
+//Cursos Cards
+
+.card-body{
+    color:#0F0526;
+}
+.text-inherit {
+    text-decoration: none;
+    color:#0F0526; 
+}
+
+.btn.btn-success {
+    background-color:#F1F0F3;
+    color:#0F0526!important;
+    position:absolute;
+        left: 67%;
+        top:2%;
+        padding-top:-0.2rem;
+}
+
+@media (max-width: 1400px){
+    .btn.btn-success{
+         position:absolute;
+         left: 50%;
+ 
+    }
+ }
+
+ @media (max-width: 991px){
+    .btn.btn-success{
+         position:absolute;
+         left: 70%;
+ 
+    }
+ }
+
+ @media (max-width: 338px){
+    .btn.btn-success{
+         position:absolute;
+         left: 65;
+ 
+    }
+ }
+ .card:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: transform .3s;
+}
+
+ .col-lg-{
+     background-color: black;
+    color:#F1F0F3;
+ }
+ main .row{
+     background-color: black;
+ }
+ main .text-center{
+    color:#F1F0F3;
+ }
+
+ //enviar mensaje contacto
+
+ .col-form-label {
+     color:#F1F0F3 !important ;
+ }
+ main .d-flex{
+     padding-top: 3rem;
+ }
+.gallery__item gallery__item{
+    size: 15%;
+}
+.marketing{
+    background-color: black;
+}
+main .container{
+    background-color: black;
+}
+.marketing{
+    width: 73%;
+}
+.rounded-circle{
+    position:relative;
+    left: 25%;
+}
+.col-lg-4{
+    color:#F1F0F3 ;
+}
+.featurette-heading{
+    color:#F1F0F3 ;
+}
+.lead{
+    color:#F1F0F3 ;
+}
+
+.mx-auto {
+    padding-top: 3rem;
+    background-color: black;
+}
+// .p-6{
+//     position: relative;;
+//     bottom:200px;
+//}
+ .shadow{
+     position: relative;;
+     bottom:180px;
+ }
+
+ .my-4{
+     color: #F1F0F3 ;
+ }
+
+ .mb-1{
+     color: black;
+     position: sticky;
+     right: 25%;
+
+ }
+ 
+ .btn-primary {
+    background-color: #F1F0F3;
+    color: #1F1659 !important;
+    border-radius: none !important;
+    border: none !important}
+
+.btn-primary:hover{
+    background-color: #1F1659;
+    border:none !important;
+    border-color: none !important;
+    border-radius: none !important;
+    color:  #F1F0F3 !important;
+}
+.mb-3{
+    color: #1F1659 !important;
+}

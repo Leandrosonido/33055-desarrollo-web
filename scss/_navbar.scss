@@ -1,0 +1,56 @@
+// Navbar
+
+.navbar {
+    color: #F1F0F3;
+    height: 3.2rem;
+    .navbar-brand {
+        color:#F1F0F3;}}
+
+.bg-dark {
+    color:#F1F0F3 !important;
+    background: linear-gradient(280.04deg,black 0%,#0D0D0D 14%, #0F0526 38.45%, #160A40 48.96%, #1F1659 60%, black 100% );}
+
+.btn {
+    background-color: #F1F0F3;
+    color: #1F1659 !important;
+    border-radius: none !important;
+    border: none !important}
+
+.btn-outline-success:hover{
+    background-color: #1F1659;
+    border:none !important;
+    border-color: none !important;
+    border-radius: none !important;
+    color:  #F1F0F3 !important;
+
+}
+.btn-outline-success{
+    color: #1F1659 !important;
+    border: none!important;
+    -ms-flex-order:none;
+    
+}
+
+header{
+    width: 100vw;
+}
+header .container-fluid {
+    width: 76vw !important;
+}
+
+ ul .navlink{
+    padding-top: 2rem !important;
+    position:absolute;
+width: 100vw;
+}
+
+ @media (max-width: 990px){
+   .navbar-collapse{
+        background-color:#0D0D0D;
+   }
+nav .btn-outline-success{
+    position: relative;
+    left: 40%;
+}
+
+}
