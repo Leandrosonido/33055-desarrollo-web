@@ -9,7 +9,7 @@
 		<meta name="description" content="Clases online musica y sonido">
 		<meta name="author" content="Leandro Vargas">
 <!-- Favicon -->
-		<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
+		<link rel="shortcut icon" href="./assets/img/favicon_sound_class.jpg">
 <!-- Google Fonts -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=roboto">
 <!-- Libraries animation -->
@@ -21,18 +21,18 @@
 	</head>
 	<body>
 <!-- Navbar -->
-		<header>	
-			<nav class="navbar navbar-expand-lg navbar-dark bg-light" >
+	<header>
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
 				<div class="container-fluid">
-					<a class="navbar-brand" href="./index.html">
+					<a class="navbar-brand" href="../index.html">
 					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-soundwave" viewBox="0 0 16 16">
 						<path fill-rule="evenodd" d="M8.5 2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5zm-2 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm-6 1.5A.5.5 0 0 1 5 6v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm8 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm-10 1A.5.5 0 0 1 3 7v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5zm12 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5z"></path>
-					  </svg>SoundClass</a>
+					  </svg> SoundClass</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span> Menu
 					</button>
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<ul class="navbar-nav nav-justified w-100"> 
 							<li class="nav-item">
 								<a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
 							</li>
@@ -40,98 +40,276 @@
 								<a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="./pages/construccion.html">Profesores</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Experiencias</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-								Cursos
-								</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="./pages/cursos.html">Cursos</a></li>
-									<li><a class="dropdown-item" href="./pages/construccion.html">Curso 1</a></li>
-									<li><a class="dropdown-item" href="./pages/construccion.html">Curso 2</a></li>
-								</ul>
+								<a class="nav-link" href="./pages/cursos.html">Cursos</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="./pages/contacto.html">Contacto</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="./pages/construccion.html">MapSite</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="./pages/sesion.html">Plataforma</a>
-							</li>
+							<form class="d-flex" action="./pages/sesion.html">
+								<button class="btn btn-outline-success" type="submit">Plataforma</button>
+							</form>
 						</ul>
-						<form class="d-flex">
-							<button class="btn btn-outline-success"  href="./pages/sesion.html" type="submit">Plataforma</button>
-						</form>
 					</div>
 				</div>
 			</nav>
 		</header>
-		<main>
-<!-- animación 1-->
-			<div class="animation">
-				<p class="animate__heartBeat"> <h1>Únete a la comunidad de músicos y productores más grande de habla hispana y accede a clases, cursos y contenido exclusivo.</h1> </p>
-<!-- Carousel-->
+		<main class="bg-black">
+<!-- Contenido del sitio -->
+			<div class="bg-primary bg-black">
+				<div class="container ">
+<!-- Encabezado texto, imagen y botones -->
+					<div class="row align-items-center g-0 bg-black ">
+						<div class="col-xl- col-lg-4 col-md-4">
+							<div class="py-5 py-lg-0">
+								<h1 class="text-white display-4 fw-bold ;">Bienvenido a SoundClass, el lugar para el aprendizaje del audio.
+								</h1>
+								<p class="text-white-50 mb-4 lead">
+									Instructores cuidadosamente seleccionados y cursos elaborados por expertos, para los estudiantes.
+								</p>
+							</div>
+						</div>
+						<div class=" col-xl-7 col-lg-6 col-md-12 text-lg-end text-center">
+							<img src="./assets/img/Heroe_Index.png" alt="Imagen sonidista" class="img-fluid"/>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
-				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-				  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<div class="bg-white py-4 shadow-sm">
+				<div class="container">
+					<div class="row align-items-center g-0">
+<!-- Características -->
+						<div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-4">
+							<div class="d-flex align-items-center">
+								<span class="icon-sahpe icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-4 "> <i
+						class="fe fe-video"> </i></span>
+								<div class="ms-3">
+									<h4 class="mb-0 fw-semi-bold"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 20 20">
+										<path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+										<path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+									  </svg> 8 cursos de audio </h4>
+									<p class="mb-0">Disfruta de una variedad de temas</p>
+								</div>
+							</div>
+						</div>
+<!-- Características -->
+						<div class=" wrap   col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-4">
+							<div class="d-flex align-items-center">
+								<span class="icon-sahpe icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-4 "> <i
+						class="fe fe-users"> </i></span>
+								<div class="ms-3">
+									<h4 class="mb-0 fw-semi-bold"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-file-person" viewBox="0 0 20 20">
+										<path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+										<path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+									  </svg> Expertos Instructores</h4>
+									<p class="mb-0">Encuentra el instructor adecuado para ti</p>
+								</div>
+							</div>
+						</div>
+<!-- Características -->
+						<div class="col-xl-4 col-lg-4 col-md-12">
+							<div class="d-flex align-items-center">
+								<span class="icon-sahpe icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-4 "> <i
+						class="fe fe-clock"> </i></span>
+								<div class="ms-3">
+									<h4 class="mb-0 fw-semi-bold"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar2-week" viewBox="0 0 20 20">
+										<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+										<path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zM11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+									  </svg> Acceso de por vida</h4>
+									<p class="mb-0">Aprende en tu horario y ritmo</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="carousel-inner">
-				  <div class="carousel-item active" data-bs-interval="10000">
-					<img src="./assets/img/slide_1.jpg" class="d-block w-100" alt="sonidista frente a consola">
-					<div class="carousel-caption d-none d-md-block">
-					  <h5>DOCENTES</h5>
-					  <p>Reconocidos de forma internacional</p>
+            </div>
+<!-- Cursos Titulo -->
+			<div class="pt-lg-12 pb-lg-3 pt-8 pb-6">
+				<div class="container">
+					<div class="row mb-4">
+						<div class="col">
+							<h2 class="mb-0">Cursos más populares</h2>
+						</div>
 					</div>
-				  </div>
-				  <div class="carousel-item" data-bs-interval="2000">
-					<img src="./assets/img/slide_2.jpg" class="d-block w-100" alt="grupo de rock en concierto">
-					<div class="carousel-caption d-none d-md-block">
-					  <h5>CLASES ONLINE</h5>
-					  <p>Videos en alta calidad que podrás acceder desde cualquier dispositivo.</p>
+<!-- Cursos -->
+				<div class="py-6">
+					<div class="container">
+					<div class="row mb-6">
+						<!-- Tab Content -->
+						<div class="tab-content" id="tabContent">
+							<!-- Tab Pane -->
+							<div class="tab-pane fade show active" id="most-popular" role="tabpanel" aria-labelledby="most-popular-tab">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-12">
+<!--Tarjeta Curso Pro tools Básico desde 0 -->
+								<div class="card  mb-4 card-hover">
+									<a href="./pages/construccion.html" class="card-img-top"><img src="./assets/img/cursos/curso_protools_basico_desde_0_vertical.png" alt="Curso protools desde 0"
+										class="card-img-top rounded-top-md"></a>
+<!-- Cuerpo de tarjeta Curso Pro tools Básico desde 0  -->
+									<div class="card-body">
+									<h3 class="h4 mb-2 text-truncate-line-2 "><a href="./pages/construccion.html" class="text-inherit">Pro Tools 0</a></h3>
+									<ul class="mb-3  list-inline">
+										<li class="list-inline-item"><i class="mdi mdi-clock-time-four-outline text-muted me-1"></i>12h 14m
+										</li>
+										<li class="list-inline-item"><svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="3" y="8" width="2" height="6" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="7" y="5" width="2" height="9" rx="1" fill="#F1F0F3">
+											</rect>
+											<rect x="11" y="2" width="2" height="12" rx="1" fill="#F1F0F3">
+											</rect>
+										</svg>Principiante </li>
+										<li><a href="./pages/construccion.html" class="btn btn-success">Comprar</a></li>
+									</ul>
+									<div class="lh-1">
+										<span>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning"></i>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+<!-- Tarjeta curso Micrófonos--> 
+								<div class="col-lg-3 col-md-6 col-12">
+								<div class="card  mb-4 card-hover">
+									<a href="./pages/construccion.html" class="card-img-top"><img src="./assets/img/cursos/curso_microfonos_vertical.png" alt="curso de microfonos"
+										class="card-img-top rounded-top-md"></a>
+<!-- Cuerpo de tarjeta curso Micrófonos -->
+									<div class="card-body">
+									<h3 class="h4 mb-2 text-truncate-line-2 "><a href="./pages/construccion.html" class="text-inherit">Micrófonos</a>
+									</h3>
+									<ul class="mb-3  list-inline">
+										<li class="list-inline-item"><i class="mdi mdi-clock-time-four-outline text-muted me-1"></i>8h 46m
+										</li>
+										<li class="list-inline-item"><svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="3" y="8" width="2" height="6" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="7" y="5" width="2" height="9" rx="1" fill="#F1F0F3">
+											</rect>
+											<rect x="11" y="2" width="2" height="12" rx="1" fill="#F1F0F3">
+											</rect>
+										</svg>Principiante</li>
+										<li><a href="./pages/construccion.html" class="btn btn-success">Comprar</a></li>
+									</ul>
+									<div class="lh-1">
+										<span>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning"></i>
+										</span>
+									</div>
+								</div>
+<!-- Pie de tarjeta curso Micrófonos -->
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+<!-- Tarjeta curso Consolas 2--> 
+								<div class="card  mb-4 card-hover">
+									<a href="/pages/construccion.html" class="card-img-top"><img src="./assets/img/cursos/curso_consolas_2_digitales_verticales.png" alt="imagen curso consola digitales"
+										class="card-img-top rounded-top-md"></a>
+<!-- Cuerpo curso Consolas 2 -->
+									<div class="card-body">
+									<h3 class="h4 mb-2 text-truncate-line-2 "><a href="./pages/construccion.html" class="text-inherit">Consolas 2</a>
+									</h3>
+									<ul class="mb-3 list-inline">
+										<li class="list-inline-item"><i class="mdi mdi-clock-time-four-outline text-muted me-1"></i>14h 30m
+										</li>
+										<li class="list-inline-item"><svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="3" y="8" width="2" height="6" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="7" y="5" width="2" height="9" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="11" y="2" width="2" height="12" rx="1" fill="#F1F0F3">
+											</rect>
+										</svg>Intermedio </li>
+										<li><a href="./pages/construccion.html" class="btn btn-success">Comprar</a></li>
+									</ul>
+									<div class="lh-1">
+										<span>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning"></i>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-12">
+<!-- Tarjeta curso Procesadores de Audio--> 
+							<div class="card  mb-4 card-hover">
+								<a href="./pages/construccion.html" class="card-img-top"><img src="./assets/img/cursos/curso_procesadores_de_audio_vertical.png" alt=""
+										class="card-img-top rounded-top-md"></a>
+<!-- Cuerpo curso Procesadores de Audio -->
+									<div class="card-body">
+									<h3 class="h4 mb-2 text-truncate-line-2 "><a href="./pages/construccion.html" class="text-inherit">Procesadores</a></h3>
+									<ul class="mb-3  list-inline">
+										<li class="list-inline-item"><i class="mdi mdi-clock-time-four-outline text-muted me-1"></i>23h 43m
+										</li>
+										<li class="list-inline-item"><svg class="me-1 mt-n1" width="16" height="16" viewBox="0 0 16 16"
+											fill="none" xmlns="http://www.w3.org/2000/svg">
+											<rect x="3" y="8" width="2" height="6" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="7" y="5" width="2" height="9" rx="1" fill="#1F1659">
+											</rect>
+											<rect x="11" y="2" width="2" height="12" rx="1" fill="#1F1659">
+											</rect>
+										</svg>Avanzado</li>
+										<li><a href="./pages/construccion.html" class="btn btn-success">Comprar</a></li>
+									</ul>
+									<div class="lh-1">
+										<span>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning me-n1"></i>
+										<i class="mdi mdi-star text-warning"></i>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-				  </div>
-				  <div class="carousel-item">
-					<img src="./assets/img/slide_3.jpg" class="d-block w-100" alt="estudio de sonido">
-					<div class="carousel-caption d-none d-md-block">
-					  <h5>CERTIFICADO</h5>
-					  <p>Todos nuestros cursos obtienen un certificado de cumplimiento exitoso.</p>
-					</div>
-				  </div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-				  <span class="visually-hidden">Next</span>
-				</button>
-			  </div>
 		</main>
 <!--Footer -->
-		<footer class="py-3 my-4"></footer>
-			<div class="container">
-			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
-				<li class="nav-item"><a href="./index.html" class="nav-link px-2 text-muted">SoundClass</a></li>
-				<li class="nav-item"><a href="/pages/nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
-				<li class="nav-item"><a href="/pages/cursos.html" class="nav-link px-2 text-muted">Cursos</a></li>
-				<li class="nav-item"><a href="/pages/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
-				<li class="nav-item"><a href="/pages/sesión.html" class="nav-link px-2 text-muted">Plataforma</a></li>
-			</ul>
-				<p class="text-center text-muted"> SoundClass © 2022 </p>
-			</div>
-<!-- animación 2-->
-			<div class="animation">
-				<p class="animate__heartBeat">  </p>
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="row align-items-center g-0 border-top py-2">
+<!-- Descargo de responsabilidad animación-->
+						<div class="col-md-6 col-12 text-center text-md-start animate__heartBeat">
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-soundwave" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M8.5 2a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-1 0v-11a.5.5 0 0 1 .5-.5zm-2 2a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm4 0a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zm-6 1.5A.5.5 0 0 1 5 6v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm8 0a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm-10 1A.5.5 0 0 1 3 7v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5zm12 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5z"></path>
+							  </svg> SoundClass © 2022 Todos los Derechos Reservados.</span>
+						</div>
+<!-- Enlaces del pie de pagina  -->
+						<div class="col-12 col-md-6">
+							<nav class="nav nav-footer justify-content-center justify-content-md-end">
+								<a class="nav-link active ps-0" href="./index.html">Inicio</a>
+								<a class="nav-link" href="./pages/nosotros.html">Nosotros </a>
+								<a class="nav-link" href="./pages/cursos.html">Cursos</a>
+								<a class="nav-link" href="./pages/contacto.html">Contacto</a>
+								<a class="nav-link" href="./pages/sesion.html">Plataforma</a>
+								<a class="nav-link" href="https://www.instagram.com/leandrovargaspinheiro/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 20 20">
+									<path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+								  </svg></a>
+								<a class="nav-link" href="https://www.facebook.com/leandro.v.pinheiro"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 20 20">
+									<path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+								  </svg></a>
+							</nav>
+						</div>
+					</div>
+				</div>
 			</div>
 		</footer>
 <!--Script Bootstrap -->
